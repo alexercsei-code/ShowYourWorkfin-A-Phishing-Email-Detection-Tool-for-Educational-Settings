@@ -33,7 +33,7 @@ Classical models and TF-IDF were chosen over transformer models for interpretabi
 ## Repository layout
 
 ```
-code/   Colab notebooks, numbered in pipeline order (download → explore → preprocess → train → evaluate)
+code/   Colab notebooks, numbered in pipeline order (download → explore → clean → train → evaluate)
 data/        Not stored here. README explains where the data comes from and how to regenerate it.
 results/     Figures and metric tables produced during evaluation
 docs/        Licence notices, ethics notes and other supporting material
