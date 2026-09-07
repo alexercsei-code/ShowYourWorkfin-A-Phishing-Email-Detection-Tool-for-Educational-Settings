@@ -1,0 +1,7 @@
+feature_set,model,recall,precision,f1,auc,f1_std,minutes
+B: TF-IDF + structural,SVM (linear),0.99,0.989,0.99,0.999,0.0,4.541
+A: TF-IDF only,SVM (linear),0.99,0.989,0.989,0.999,0.001,4.546
+B: TF-IDF + structural,Logistic Regression,0.986,0.983,0.985,0.999,0.001,4.451
+A: TF-IDF only,Logistic Regression,0.986,0.983,0.985,0.999,0.0,5.514
+B: TF-IDF + structural,Random Forest,0.983,0.986,0.984,0.999,0.001,29.11
+A: TF-IDF only,Random Forest,0.977,0.986,0.982,0.998,0.001,30.809

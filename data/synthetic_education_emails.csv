@@ -1,0 +1,863 @@
+"id","source","institution","setting","type","label","from","to","subject","attachment","body","text"
+"synth_01","Synthetic (LLM-generated for this project)","fictional","secondary school","Credential: Microsoft 365 password expiry","1","IT Helpdesk <helpdesk@brookmere-high-support.com>","staff","Your password expires in 12 hours","","Dear colleague,
+
+Our records show the password for your Brookmere High School Microsoft 365 account is due to expire at 23:59 tonight. To avoid interruption to Outlook, Teams and SIMS, please confirm that you wish to keep your existing password.
+
+Keep my password: http://brookmere-high-support.com/keep
+
+If no action is taken, your account will be locked and a new password will be issued by post.
+
+IT Helpdesk
+Brookmere High School","Your password expires in 12 hours Dear colleague,
+
+Our records show the password for your Brookmere High School Microsoft 365 account is due to expire at 23:59 tonight. To avoid interruption to Outlook, Teams and SIMS, please confirm that you wish to keep your existing password.
+
+Keep my password: http://brookmere-high-support.com/keep
+
+If no action is taken, your account will be locked and a new password will be issued by post.
+
+IT Helpdesk
+Brookmere High School"
+"synth_02","Synthetic (LLM-generated for this project)","fictional","university","Credential: Microsoft 365 password expiry","1","Westmoor University IT <no-reply@westmoor-account-services.net>","student","Action needed: password update required","","Hello,
+
+As part of our annual security review, all student accounts must have their password revalidated before the end of the week. This takes less than a minute and you will not need to choose a new password.
+
+Revalidate now: http://westmoor-account-services.net/revalidate
+
+Accounts that are not revalidated will lose access to Moodle, email and the library from Monday.
+
+Thank you for helping keep Westmoor secure.
+IT Services","Action needed: password update required Hello,
+
+As part of our annual security review, all student accounts must have their password revalidated before the end of the week. This takes less than a minute and you will not need to choose a new password.
+
+Revalidate now: http://westmoor-account-services.net/revalidate
+
+Accounts that are not revalidated will lose access to Moodle, email and the library from Monday.
+
+Thank you for helping keep Westmoor secure.
+IT Services"
+"synth_03","Synthetic (LLM-generated for this project)","fictional","secondary school","Credential: mailbox storage","1","Mail Administrator <postmaster@kingsmead-college-mail.org>","staff","Mailbox almost full (98%)","","Your mailbox has reached 98% of its allocated storage. Incoming messages will be rejected once the limit is reached.
+
+To increase your storage allowance free of charge, sign in below and select 'Upgrade'.
+
+http://kingsmead-college-mail.org/upgrade
+
+Mail Administrator","Mailbox almost full (98%) Your mailbox has reached 98% of its allocated storage. Incoming messages will be rejected once the limit is reached.
+
+To increase your storage allowance free of charge, sign in below and select 'Upgrade'.
+
+http://kingsmead-college-mail.org/upgrade
+
+Mail Administrator"
+"synth_04","Synthetic (LLM-generated for this project)","fictional","university","Credential: shared document lure","1","Dr Helen Ashworth via SharePoint <share@avonside-docs.com>","staff","Helen Ashworth shared 'Revised Marking Scheme' with you","","Helen Ashworth has shared a document with you.
+
+Revised Marking Scheme – Semester 1.docx
+
+Open document: http://avonside-docs.com/open/3f9a
+
+This link will expire in 24 hours. You may be asked to sign in with your university credentials to view the file.
+
+Microsoft SharePoint","Helen Ashworth shared 'Revised Marking Scheme' with you Helen Ashworth has shared a document with you.
+
+Revised Marking Scheme – Semester 1.docx
+
+Open document: http://avonside-docs.com/open/3f9a
+
+This link will expire in 24 hours. You may be asked to sign in with your university credentials to view the file.
+
+Microsoft SharePoint"
+"synth_05","Synthetic (LLM-generated for this project)","fictional","secondary school","Credential: e-signature lure","1","DocuSign <dse@docusign-notify-uk.com>","staff","Please review and sign: Updated Contract of Employment","","Severn Vale Academy Trust has sent you a document to review and sign.
+
+Updated Contract of Employment – 2026/27
+
+REVIEW DOCUMENT: http://docusign-notify-uk.com/review
+
+Please complete by Friday. Contracts not signed by the deadline cannot be processed for the September pay run.
+
+Do not share this email with others.","Please review and sign: Updated Contract of Employment Severn Vale Academy Trust has sent you a document to review and sign.
+
+Updated Contract of Employment – 2026/27
+
+REVIEW DOCUMENT: http://docusign-notify-uk.com/review
+
+Please complete by Friday. Contracts not signed by the deadline cannot be processed for the September pay run.
+
+Do not share this email with others."
+"synth_06","Synthetic (LLM-generated for this project)","fictional","university","Credential: Teams voicemail lure","1","Microsoft Teams <teams@office-voicemail-alerts.com>","staff","You have a new voicemail (0:47)","","You received a voicemail message.
+
+From: +44 20 3*** ****
+Duration: 0 min 47 sec
+
+Listen to voicemail: http://office-voicemail-alerts.com/play
+
+This voicemail will be deleted in 48 hours if not reviewed.","You have a new voicemail (0:47) You received a voicemail message.
+
+From: +44 20 3*** ****
+Duration: 0 min 47 sec
+
+Listen to voicemail: http://office-voicemail-alerts.com/play
+
+This voicemail will be deleted in 48 hours if not reviewed."
+"synth_07","Synthetic (LLM-generated for this project)","fictional","secondary school","BEC: headteacher gift-card request","1","Andrew Cole <andrew.cole.brookmere@gmail.com>","office manager","Are you at your desk?","","Hi Joanne,
+
+Are you free? I'm in a governors' meeting and can't step out. I need a quick favour handled discreetly before the end of the day. Let me know when you see this and I'll send the details.
+
+Thanks
+Andrew
+Headteacher","Are you at your desk? Hi Joanne,
+
+Are you free? I'm in a governors' meeting and can't step out. I need a quick favour handled discreetly before the end of the day. Let me know when you see this and I'll send the details.
+
+Thanks
+Andrew
+Headteacher"
+"synth_08","Synthetic (LLM-generated for this project)","fictional","secondary school","BEC: headteacher gift-card request (follow-up)","1","Andrew Cole <andrew.cole.brookmere@gmail.com>","office manager","RE: Are you at your desk?","","Great, thanks Joanne.
+
+I want to thank the exam invigilators with something small. Could you get 6 x £25 Apple gift cards from the Tesco on the way back from lunch? Scratch the backs and send me a photo of the codes so I can email them out this afternoon. Use the school card and I'll sign the expense form when I'm back.
+
+Please don't mention it to anyone yet, I'd like it to be a surprise.
+
+Andrew","RE: Are you at your desk? Great, thanks Joanne.
+
+I want to thank the exam invigilators with something small. Could you get 6 x £25 Apple gift cards from the Tesco on the way back from lunch? Scratch the backs and send me a photo of the codes so I can email them out this afternoon. Use the school card and I'll sign the expense form when I'm back.
+
+Please don't mention it to anyone yet, I'd like it to be a surprise.
+
+Andrew"
+"synth_09","Synthetic (LLM-generated for this project)","fictional","university","BEC: head of department urgent bank transfer","1","Prof. Michael Grant <m.grant.westmoor@outlook.com>","departmental administrator","Urgent payment – conference deposit","","Sarah,
+
+I'm travelling and have limited email access. The venue for the departmental conference needs the deposit today or we lose the booking. Can you arrange a same-day transfer of £2,850 to the account below and send me confirmation?
+
+Account name: Meridian Venues Ltd
+Sort code: 40-11-32
+Account: 71920446
+
+I'll deal with the paperwork on my return.
+
+Michael","Urgent payment – conference deposit Sarah,
+
+I'm travelling and have limited email access. The venue for the departmental conference needs the deposit today or we lose the booking. Can you arrange a same-day transfer of £2,850 to the account below and send me confirmation?
+
+Account name: Meridian Venues Ltd
+Sort code: 40-11-32
+Account: 71920446
+
+I'll deal with the paperwork on my return.
+
+Michael"
+"synth_10","Synthetic (LLM-generated for this project)","fictional","secondary school","Payroll diversion","1","Payroll <payroll-severnvale@hotmail.co.uk>","staff","Payslip error – action required","","Dear staff member,
+
+We have identified an error affecting the bank details held for a number of staff, which may prevent salaries being paid on the 28th. Please confirm your details on the secure payroll portal as soon as possible.
+
+Confirm details: http://severnvale-payroll-portal.com
+
+Staff who do not confirm by Wednesday will be paid by cheque, which may take up to 10 working days.
+
+Payroll Team","Payslip error – action required Dear staff member,
+
+We have identified an error affecting the bank details held for a number of staff, which may prevent salaries being paid on the 28th. Please confirm your details on the secure payroll portal as soon as possible.
+
+Confirm details: http://severnvale-payroll-portal.com
+
+Staff who do not confirm by Wednesday will be paid by cheque, which may take up to 10 working days.
+
+Payroll Team"
+"synth_11","Synthetic (LLM-generated for this project)","fictional","university","Payroll diversion (self-service lookalike)","1","HR Self-Service <hr@avonside-selfservice.com>","staff","Update to your salary payment method","","Dear employee,
+
+You have a pending change request on your salary payment method. If you did not make this request, please cancel it immediately using the link below.
+
+Review request: http://avonside-selfservice.com/payroll/cancel
+
+Requests not cancelled within 24 hours will be applied to the next payroll cycle.
+
+HR Self-Service","Update to your salary payment method Dear employee,
+
+You have a pending change request on your salary payment method. If you did not make this request, please cancel it immediately using the link below.
+
+Review request: http://avonside-selfservice.com/payroll/cancel
+
+Requests not cancelled within 24 hours will be applied to the next payroll cycle.
+
+HR Self-Service"
+"synth_12","Synthetic (LLM-generated for this project)","fictional","secondary school","HR benefits document lure","1","HR Department <hr@severnvale-trust-hr.com>","staff","Your 2026 benefits statement is ready","Benefits_Statement_2026.htm","Dear colleague,
+
+Your personal benefits statement for 2026 is attached. It summarises your salary, pension contributions and annual leave entitlement. Please open the attachment and sign in to view.
+
+The statement is password protected using your normal network password.
+
+HR Department
+Severn Vale Academy Trust","Your 2026 benefits statement is ready Dear colleague,
+
+Your personal benefits statement for 2026 is attached. It summarises your salary, pension contributions and annual leave entitlement. Please open the attachment and sign in to view.
+
+The statement is password protected using your normal network password.
+
+HR Department
+Severn Vale Academy Trust"
+"synth_13","Synthetic (LLM-generated for this project)","fictional","university","Pension impersonation","1","Teachers' Pension Service <notifications@pension-service-uk.org>","staff","Your pension record has been suspended","","Dear member,
+
+We were unable to match your National Insurance number to your employer's most recent contribution return. Your record has been suspended until this is resolved.
+
+To reinstate your record, verify your identity here: http://pension-service-uk.org/verify
+
+If you do not respond within 7 days, contributions for this period may be lost.","Your pension record has been suspended Dear member,
+
+We were unable to match your National Insurance number to your employer's most recent contribution return. Your record has been suspended until this is resolved.
+
+To reinstate your record, verify your identity here: http://pension-service-uk.org/verify
+
+If you do not respond within 7 days, contributions for this period may be lost."
+"synth_14","Synthetic (LLM-generated for this project)","fictional","secondary school","Exam board impersonation","1","Exam Board Secure Portal <results@examboard-secure.com>","exams officer","Early access: summer results embargo lifted","","Dear Exams Officer,
+
+Following a change to the release schedule, centres may now access provisional results 48 hours ahead of results day. Access is granted to registered exams officers only.
+
+Access results: http://examboard-secure.com/centre-login
+
+Please do not forward this message. Access will be logged.","Early access: summer results embargo lifted Dear Exams Officer,
+
+Following a change to the release schedule, centres may now access provisional results 48 hours ahead of results day. Access is granted to registered exams officers only.
+
+Access results: http://examboard-secure.com/centre-login
+
+Please do not forward this message. Access will be logged."
+"synth_15","Synthetic (LLM-generated for this project)","fictional","secondary school","Department for Education impersonation, attachment","1","DfE Funding <funding@educationgov-uk.com>","headteacher","Pupil Premium allocation 2026/27 – confirmation required","PP_Allocation_Confirmation.zip","Dear Headteacher,
+
+Your school's Pupil Premium allocation for 2026/27 has been calculated. To release the first payment, the attached confirmation form must be completed and returned within 5 working days.
+
+Schools that do not return the form will have their payment deferred to the next quarter.
+
+ESFA Funding Team","Pupil Premium allocation 2026/27 – confirmation required Dear Headteacher,
+
+Your school's Pupil Premium allocation for 2026/27 has been calculated. To release the first payment, the attached confirmation form must be completed and returned within 5 working days.
+
+Schools that do not return the form will have their payment deferred to the next quarter.
+
+ESFA Funding Team"
+"synth_16","Synthetic (LLM-generated for this project)","fictional","secondary school","Inspection impersonation","1","Inspection Notifications <notice@inspection-portal-uk.com>","headteacher","Notification of inspection – confidential","","Dear Headteacher,
+
+This is formal notice that your school has been selected for inspection. The inspection date and lead inspector details are available on the secure portal. You are required to acknowledge receipt within 24 hours.
+
+Acknowledge: http://inspection-portal-uk.com/notice
+
+This message is confidential and must not be shared with staff until the inspection is announced.","Notification of inspection – confidential Dear Headteacher,
+
+This is formal notice that your school has been selected for inspection. The inspection date and lead inspector details are available on the secure portal. You are required to acknowledge receipt within 24 hours.
+
+Acknowledge: http://inspection-portal-uk.com/notice
+
+This message is confidential and must not be shared with staff until the inspection is announced."
+"synth_17","Synthetic (LLM-generated for this project)","fictional","university","Student: tuition fee refund","1","Student Finance Office <refunds@westmoor-refunds.com>","student","You are due a tuition fee refund of £412.50","","Dear student,
+
+An overpayment of £412.50 has been identified on your tuition fee account for the last academic year. To receive your refund, confirm your bank details on the refund portal.
+
+Claim refund: http://westmoor-refunds.com/claim
+
+Refunds not claimed within 14 days will be returned to the funding body.","You are due a tuition fee refund of £412.50 Dear student,
+
+An overpayment of £412.50 has been identified on your tuition fee account for the last academic year. To receive your refund, confirm your bank details on the refund portal.
+
+Claim refund: http://westmoor-refunds.com/claim
+
+Refunds not claimed within 14 days will be returned to the funding body."
+"synth_18","Synthetic (LLM-generated for this project)","fictional","university","Student: bursary application","1","Bursaries Team <bursaries@avonside-studentsupport.org>","student","Hardship bursary – you have been pre-approved","","Good news!
+
+You have been pre-approved for a £1,500 hardship bursary under the university's cost of living scheme. To accept, you need to verify your student ID and provide the account for payment.
+
+Accept bursary: http://avonside-studentsupport.org/accept
+
+Offers expire 72 hours after this email is sent.","Hardship bursary – you have been pre-approved Good news!
+
+You have been pre-approved for a £1,500 hardship bursary under the university's cost of living scheme. To accept, you need to verify your student ID and provide the account for payment.
+
+Accept bursary: http://avonside-studentsupport.org/accept
+
+Offers expire 72 hours after this email is sent."
+"synth_19","Synthetic (LLM-generated for this project)","fictional","university","Student: library fine","1","Library Services <library@westmoor-library-fines.com>","student","Overdue items – account block pending","","Your library account has outstanding charges of £27.40 for overdue items. Accounts with unpaid charges are blocked from borrowing and from graduation.
+
+Pay now: http://westmoor-library-fines.com/pay
+
+Please pay within 3 days to avoid the block being applied.","Overdue items – account block pending Your library account has outstanding charges of £27.40 for overdue items. Accounts with unpaid charges are blocked from borrowing and from graduation.
+
+Pay now: http://westmoor-library-fines.com/pay
+
+Please pay within 3 days to avoid the block being applied."
+"synth_20","Synthetic (LLM-generated for this project)","fictional","university","Student: fake job offer","1","Careers Placement Office <placements@avonside-careers.com>","student","Paid remote research assistant role – apply today","","Hi,
+
+A member of academic staff is looking for a part-time remote research assistant (£19/hour, 10 hours a week, flexible). No experience needed. Only a few places are available and priority goes to the first applicants.
+
+To apply, complete the short form and upload a copy of your student ID: http://avonside-careers.com/apply
+
+Careers Placement Office","Paid remote research assistant role – apply today Hi,
+
+A member of academic staff is looking for a part-time remote research assistant (£19/hour, 10 hours a week, flexible). No experience needed. Only a few places are available and priority goes to the first applicants.
+
+To apply, complete the short form and upload a copy of your student ID: http://avonside-careers.com/apply
+
+Careers Placement Office"
+"synth_21","Synthetic (LLM-generated for this project)","fictional","university","Student: MFA reset","1","Security Operations <mfa@westmoor-security.com>","student","Multi-factor authentication reset required","","We detected a sign-in to your account from an unrecognised device in another country. As a precaution, your multi-factor authentication has been disabled.
+
+Re-enrol your device here within 24 hours or your account will be locked: http://westmoor-security.com/mfa
+
+Security Operations Centre","Multi-factor authentication reset required We detected a sign-in to your account from an unrecognised device in another country. As a precaution, your multi-factor authentication has been disabled.
+
+Re-enrol your device here within 24 hours or your account will be locked: http://westmoor-security.com/mfa
+
+Security Operations Centre"
+"synth_22","Synthetic (LLM-generated for this project)","fictional","university","Student: timetable change","1","Timetabling <timetable@avonside-timetable.com>","student","Your timetable has changed – log in to confirm","","Dear student,
+
+Changes have been made to your timetable for next week. You must confirm you have seen them, otherwise your attendance may be recorded as unauthorised.
+
+Confirm here: http://avonside-timetable.com/confirm
+
+Timetabling Office","Your timetable has changed – log in to confirm Dear student,
+
+Changes have been made to your timetable for next week. You must confirm you have seen them, otherwise your attendance may be recorded as unauthorised.
+
+Confirm here: http://avonside-timetable.com/confirm
+
+Timetabling Office"
+"synth_23","Synthetic (LLM-generated for this project)","fictional","university","Student: accommodation deposit","1","Accommodation Office <deposits@westmoor-halls.com>","student","Deposit refund – bank details needed","","Hi,
+
+Your accommodation deposit of £250 is ready to be refunded. We do not hold current bank details for you. Please add them here so we can release the payment this week: http://westmoor-halls.com/deposit
+
+Accommodation Office","Deposit refund – bank details needed Hi,
+
+Your accommodation deposit of £250 is ready to be refunded. We do not hold current bank details for you. Please add them here so we can release the payment this week: http://westmoor-halls.com/deposit
+
+Accommodation Office"
+"synth_24","Synthetic (LLM-generated for this project)","fictional","secondary school","Parent: ParentPay overdue","1","ParentPay Alerts <alerts@parent-pay-notifications.com>","parent","Overdue balance – school meals suspended","","Dear Parent/Carer,
+
+Your child's school meal account is £18.60 overdue. To avoid meals being withheld from tomorrow, please clear the balance now.
+
+Pay balance: http://parent-pay-notifications.com/pay
+
+ParentPay","Overdue balance – school meals suspended Dear Parent/Carer,
+
+Your child's school meal account is £18.60 overdue. To avoid meals being withheld from tomorrow, please clear the balance now.
+
+Pay balance: http://parent-pay-notifications.com/pay
+
+ParentPay"
+"synth_25","Synthetic (LLM-generated for this project)","fictional","secondary school","Parent: school fees to new account","1","Bursar's Office <bursar@kingsmead-college-fees.com>","parent","Autumn term fees – change of bank account","Fee_Invoice_Autumn.pdf","Dear Parent,
+
+Please note that from this term, fee payments should be made to our new bank account, details of which are on the attached invoice. Payments made to the previous account after 1 September cannot be traced and may result in late payment charges.
+
+A 5% discount is available for payment in full within 7 days.
+
+Bursar's Office
+Kingsmead College","Autumn term fees – change of bank account Dear Parent,
+
+Please note that from this term, fee payments should be made to our new bank account, details of which are on the attached invoice. Payments made to the previous account after 1 September cannot be traced and may result in late payment charges.
+
+A 5% discount is available for payment in full within 7 days.
+
+Bursar's Office
+Kingsmead College"
+"synth_26","Synthetic (LLM-generated for this project)","fictional","secondary school","Parent: safeguarding concern lure","1","Safeguarding Team <dsl@brookmere-safeguarding.com>","parent","Concern raised about your child – please read","","Dear Parent,
+
+A safeguarding concern has been logged regarding your child. Due to the sensitive nature of the matter we cannot provide details by email. Please sign in to the parent portal to read the report and confirm you have received it.
+
+http://brookmere-safeguarding.com/portal
+
+Designated Safeguarding Lead","Concern raised about your child – please read Dear Parent,
+
+A safeguarding concern has been logged regarding your child. Due to the sensitive nature of the matter we cannot provide details by email. Please sign in to the parent portal to read the report and confirm you have received it.
+
+http://brookmere-safeguarding.com/portal
+
+Designated Safeguarding Lead"
+"synth_27","Synthetic (LLM-generated for this project)","fictional","secondary school","Parent: photo consent lure","1","School Photos <orders@school-photos-online.org>","parent","Your child's school photo is ready to view","","Your child's autumn school photograph is now available. View and order online before Friday to receive free delivery.
+
+View photo: http://school-photos-online.org/view?ref=B2917
+
+You will need to create an account using your email password to view the proof.","Your child's school photo is ready to view Your child's autumn school photograph is now available. View and order online before Friday to receive free delivery.
+
+View photo: http://school-photos-online.org/view?ref=B2917
+
+You will need to create an account using your email password to view the proof."
+"synth_28","Synthetic (LLM-generated for this project)","fictional","secondary school","Supplier: invoice with new bank details","1","Accounts <accounts@westcountry-sports-supplies.com>","finance officer","Invoice 4471 – payment details updated","Invoice_4471.pdf","Hi,
+
+Please find attached invoice 4471 for the PE equipment delivered last month. Note we have moved to a new bank; please use the details on this invoice and disregard any previous remittance details.
+
+Could you confirm the expected payment date?
+
+Regards
+Carol
+Accounts, Westcountry Sports Supplies","Invoice 4471 – payment details updated Hi,
+
+Please find attached invoice 4471 for the PE equipment delivered last month. Note we have moved to a new bank; please use the details on this invoice and disregard any previous remittance details.
+
+Could you confirm the expected payment date?
+
+Regards
+Carol
+Accounts, Westcountry Sports Supplies"
+"synth_29","Synthetic (LLM-generated for this project)","fictional","university","Supplier: purchase order attachment","1","Procurement <orders@labchem-direct.co>","lab manager","PO 88213 – confirmation attached","PO_88213_confirmation.docm","Dear customer,
+
+Thank you for your order. Please open the attached confirmation and enable editing to view the delivery schedule.
+
+Kind regards,
+Order Processing
+LabChem Direct","PO 88213 – confirmation attached Dear customer,
+
+Thank you for your order. Please open the attached confirmation and enable editing to view the delivery schedule.
+
+Kind regards,
+Order Processing
+LabChem Direct"
+"synth_30","Synthetic (LLM-generated for this project)","fictional","secondary school","Recruitment: CV attachment","1","Rachel Moore <rachel.moore.applications@outlook.com>","headteacher","Application: Teacher of Mathematics","Rachel_Moore_CV.docm","Dear Headteacher,
+
+Please find attached my CV and covering letter for the Teacher of Mathematics vacancy advertised on your website. I would be grateful if you could confirm receipt.
+
+Kind regards,
+Rachel Moore","Application: Teacher of Mathematics Dear Headteacher,
+
+Please find attached my CV and covering letter for the Teacher of Mathematics vacancy advertised on your website. I would be grateful if you could confirm receipt.
+
+Kind regards,
+Rachel Moore"
+"synth_31","Synthetic (LLM-generated for this project)","fictional","secondary school","Software licence expiry","1","Adobe Licensing <licensing@adobe-education-renewals.com>","IT technician","Your Creative Cloud education licence expires today","","Your institution's Adobe Creative Cloud licence expires at midnight. To avoid disruption to lessons, renew now using your administrator credentials.
+
+Renew: http://adobe-education-renewals.com/renew
+
+Adobe Education Licensing","Your Creative Cloud education licence expires today Your institution's Adobe Creative Cloud licence expires at midnight. To avoid disruption to lessons, renew now using your administrator credentials.
+
+Renew: http://adobe-education-renewals.com/renew
+
+Adobe Education Licensing"
+"synth_32","Synthetic (LLM-generated for this project)","fictional","university","Zoom recording lure","1","Zoom <no-reply@zoom-recordings-cloud.com>","staff","Cloud recording available: Faculty Board 03/09","","Your cloud recording is now available.
+
+Topic: Faculty Board 03/09
+Duration: 1h 12m
+
+View recording: http://zoom-recordings-cloud.com/rec/9a71
+
+Recordings are deleted after 7 days.","Cloud recording available: Faculty Board 03/09 Your cloud recording is now available.
+
+Topic: Faculty Board 03/09
+Duration: 1h 12m
+
+View recording: http://zoom-recordings-cloud.com/rec/9a71
+
+Recordings are deleted after 7 days."
+"synth_33","Synthetic (LLM-generated for this project)","fictional","secondary school","WhatsApp move: head impersonation","1","Mr A Cole <acole.head@icloud.com>","staff","New number","","Hi, this is Andrew. I've changed my mobile number, please save this one: 07700 900 456. Can you message me on WhatsApp when you get this, I need to ask you something about tomorrow. Don't reply to this email as I'm not at my desk.","New number Hi, this is Andrew. I've changed my mobile number, please save this one: 07700 900 456. Can you message me on WhatsApp when you get this, I need to ask you something about tomorrow. Don't reply to this email as I'm not at my desk."
+"synth_34","Synthetic (LLM-generated for this project)","fictional","university","Survey with prize","1","Student Experience Team <survey@westmoor-student-voice.com>","student","2-minute survey – win a £200 Amazon voucher","","We want to hear from you! Complete our 2-minute survey on campus facilities and be entered into a draw for a £200 Amazon voucher.
+
+Start survey: http://westmoor-student-voice.com/survey
+
+You will need to sign in with your university account so we can enter you into the draw.","2-minute survey – win a £200 Amazon voucher We want to hear from you! Complete our 2-minute survey on campus facilities and be entered into a draw for a £200 Amazon voucher.
+
+Start survey: http://westmoor-student-voice.com/survey
+
+You will need to sign in with your university account so we can enter you into the draw."
+"synth_35","Synthetic (LLM-generated for this project)","fictional","university","Conference invitation with fee","1","ICEDS 2027 Secretariat <chair@iceds-conference.org>","academic staff","Invitation: keynote speaker, ICEDS 2027 Prague","","Dear Professor,
+
+On behalf of the organising committee, I am delighted to invite you as a keynote speaker at the International Conference on Education and Data Science 2027 in Prague. Your recent publications were highly rated by our reviewers.
+
+To confirm your participation, please complete registration (€450) via the secure portal: http://iceds-conference.org/register
+
+We look forward to welcoming you.","Invitation: keynote speaker, ICEDS 2027 Prague Dear Professor,
+
+On behalf of the organising committee, I am delighted to invite you as a keynote speaker at the International Conference on Education and Data Science 2027 in Prague. Your recent publications were highly rated by our reviewers.
+
+To confirm your participation, please complete registration (€450) via the secure portal: http://iceds-conference.org/register
+
+We look forward to welcoming you."
+"synth_36","Synthetic (LLM-generated for this project)","fictional","university","Journal acceptance with fee","1","Editorial Office <editor@journal-of-educational-computing.org>","academic staff","Manuscript accepted – payment required","","Dear author,
+
+We are pleased to inform you that your manuscript has been accepted for publication. To proceed to typesetting, the article processing charge of £890 must be paid within 5 days.
+
+Pay APC: http://journal-of-educational-computing.org/pay
+
+Editorial Office","Manuscript accepted – payment required Dear author,
+
+We are pleased to inform you that your manuscript has been accepted for publication. To proceed to typesetting, the article processing charge of £890 must be paid within 5 days.
+
+Pay APC: http://journal-of-educational-computing.org/pay
+
+Editorial Office"
+"synth_37","Synthetic (LLM-generated for this project)","fictional","secondary school","QR code MFA lure","1","IT Services <it@brookmere-mfa-setup.com>","staff","Complete your MFA enrolment","MFA_Enrolment.pdf","All staff must complete multi-factor authentication enrolment by the end of the week. Open the attached PDF and scan the QR code with your phone to enrol. You will be asked to enter your school email password to link the device.
+
+IT Services","Complete your MFA enrolment All staff must complete multi-factor authentication enrolment by the end of the week. Open the attached PDF and scan the QR code with your phone to enrol. You will be asked to enter your school email password to link the device.
+
+IT Services"
+"synth_38","Synthetic (LLM-generated for this project)","fictional","university","Calendar invite lure","1","Vice-Chancellor's Office <vc-office@avonside-calendar.com>","staff","Invitation: All-staff briefing – confidential","invite.ics","You have been invited to a confidential all-staff briefing with the Vice-Chancellor. Accept the attached invitation to receive the joining link. Please do not forward.
+
+Vice-Chancellor's Office","Invitation: All-staff briefing – confidential You have been invited to a confidential all-staff briefing with the Vice-Chancellor. Accept the attached invitation to receive the joining link. Please do not forward.
+
+Vice-Chancellor's Office"
+"synth_39","Synthetic (LLM-generated for this project)","fictional","university","Grant notification","1","Research Funding Portal <awards@ukresearch-funding.org>","academic staff","Your grant application has been approved","","Dear applicant,
+
+We are pleased to inform you that your grant application (ref. RF-2026-3391) has been approved for funding of £84,000. To release the award, log in to the funding portal and confirm your institutional bank details.
+
+http://ukresearch-funding.org/award
+
+Awards not confirmed within 10 days will be withdrawn.","Your grant application has been approved Dear applicant,
+
+We are pleased to inform you that your grant application (ref. RF-2026-3391) has been approved for funding of £84,000. To release the award, log in to the funding portal and confirm your institutional bank details.
+
+http://ukresearch-funding.org/award
+
+Awards not confirmed within 10 days will be withdrawn."
+"synth_40","Synthetic (LLM-generated for this project)","fictional","secondary school","Cashless catering top-up lure","1","Catering Services <catering@brookmere-topup.com>","parent","Low balance: your child cannot buy lunch tomorrow","","Your child's catering balance is £0.40. Top up now so they can buy lunch tomorrow.
+
+Top up: http://brookmere-topup.com
+
+Catering Services","Low balance: your child cannot buy lunch tomorrow Your child's catering balance is £0.40. Top up now so they can buy lunch tomorrow.
+
+Top up: http://brookmere-topup.com
+
+Catering Services"
+"synth_41","Synthetic (LLM-generated for this project)","fictional","secondary school","Term dates and INSET","0","Brookmere High School <office@brookmerehigh.org.uk>","parents and carers","Term dates for 2026/27 and INSET days","","Dear parents and carers,
+
+Please find below the term dates for the coming academic year. INSET days, when the school is closed to pupils, are Monday 1 September, Friday 24 October, Monday 5 January, Friday 27 March and Monday 20 July.
+
+The full calendar is on the school website under 'Parents'.
+
+Kind regards,
+School Office","Term dates for 2026/27 and INSET days Dear parents and carers,
+
+Please find below the term dates for the coming academic year. INSET days, when the school is closed to pupils, are Monday 1 September, Friday 24 October, Monday 5 January, Friday 27 March and Monday 20 July.
+
+The full calendar is on the school website under 'Parents'.
+
+Kind regards,
+School Office"
+"synth_42","Synthetic (LLM-generated for this project)","fictional","secondary school","Trip letter with ParentPay","0","Mr D Patel <d.patel@brookmerehigh.org.uk>","parents of Year 8","Year 8 trip to Bristol Aquarium – 3 October","","Dear parents and carers,
+
+Year 8 will be visiting Bristol Aquarium on Friday 3 October as part of their Science topic on ecosystems. The cost is £14.50, which covers entry and coach travel. Please give consent and pay via ParentPay by 26 September.
+
+Pupils should bring a packed lunch and wear school uniform. If you have any questions, please contact me via the school office.
+
+Kind regards,
+Mr D Patel
+Head of Science","Year 8 trip to Bristol Aquarium – 3 October Dear parents and carers,
+
+Year 8 will be visiting Bristol Aquarium on Friday 3 October as part of their Science topic on ecosystems. The cost is £14.50, which covers entry and coach travel. Please give consent and pay via ParentPay by 26 September.
+
+Pupils should bring a packed lunch and wear school uniform. If you have any questions, please contact me via the school office.
+
+Kind regards,
+Mr D Patel
+Head of Science"
+"synth_43","Synthetic (LLM-generated for this project)","fictional","secondary school","Parents' evening booking","0","Brookmere High School <office@brookmerehigh.org.uk>","parents of Year 10","Year 10 parents' evening – Thursday 16 October","","Dear parents and carers,
+
+Year 10 parents' evening will take place on Thursday 16 October from 4pm to 7pm. Appointments can be booked through the parents' evening system on the school website from 9am on Monday. Please book early as slots fill quickly.
+
+If you are unable to attend, please contact your child's form tutor to arrange a phone call.
+
+School Office","Year 10 parents' evening – Thursday 16 October Dear parents and carers,
+
+Year 10 parents' evening will take place on Thursday 16 October from 4pm to 7pm. Appointments can be booked through the parents' evening system on the school website from 9am on Monday. Please book early as slots fill quickly.
+
+If you are unable to attend, please contact your child's form tutor to arrange a phone call.
+
+School Office"
+"synth_44","Synthetic (LLM-generated for this project)","fictional","secondary school","Mandatory safeguarding training","0","Ms J Okafor <j.okafor@brookmerehigh.org.uk>","all staff","Safeguarding refresher – complete by 30 September","","Dear all,
+
+A reminder that the annual safeguarding refresher must be completed by all staff by Tuesday 30 September. The module is on the staff Moodle under 'Compliance' and takes about 40 minutes. Please sign in to Moodle in the usual way.
+
+If you have any difficulty accessing it, come and see me in the pastoral office.
+
+Thank you,
+Jane Okafor
+Designated Safeguarding Lead","Safeguarding refresher – complete by 30 September Dear all,
+
+A reminder that the annual safeguarding refresher must be completed by all staff by Tuesday 30 September. The module is on the staff Moodle under 'Compliance' and takes about 40 minutes. Please sign in to Moodle in the usual way.
+
+If you have any difficulty accessing it, come and see me in the pastoral office.
+
+Thank you,
+Jane Okafor
+Designated Safeguarding Lead"
+"synth_45","Synthetic (LLM-generated for this project)","fictional","university","MFA rollout notice","0","IT Services <itservices@westmoor.ac.uk>","all staff","Multi-factor authentication: set-up required by 1 October","","Dear colleagues,
+
+From 1 October, multi-factor authentication (MFA) will be required for all staff accounts. Please set up the Authenticator app on your phone before then using the guide on the IT Services intranet pages (search 'MFA').
+
+IT Services will never ask you for your password by email or phone. If you receive a message asking for it, report it using the 'Report phishing' button in Outlook.
+
+Drop-in help sessions run in the library every lunchtime this week.
+
+IT Services","Multi-factor authentication: set-up required by 1 October Dear colleagues,
+
+From 1 October, multi-factor authentication (MFA) will be required for all staff accounts. Please set up the Authenticator app on your phone before then using the guide on the IT Services intranet pages (search 'MFA').
+
+IT Services will never ask you for your password by email or phone. If you receive a message asking for it, report it using the 'Report phishing' button in Outlook.
+
+Drop-in help sessions run in the library every lunchtime this week.
+
+IT Services"
+"synth_46","Synthetic (LLM-generated for this project)","fictional","university","Planned maintenance","0","IT Services <itservices@westmoor.ac.uk>","all users","Planned maintenance: Moodle unavailable Saturday 06:00–10:00","","Moodle will be unavailable on Saturday 13 September between 06:00 and 10:00 for a scheduled upgrade. No action is needed. Assignments due during this window have been extended automatically.
+
+IT Services","Planned maintenance: Moodle unavailable Saturday 06:00–10:00 Moodle will be unavailable on Saturday 13 September between 06:00 and 10:00 for a scheduled upgrade. No action is needed. Assignments due during this window have been extended automatically.
+
+IT Services"
+"synth_47","Synthetic (LLM-generated for this project)","fictional","secondary school","Password policy change","0","Severn Vale Academy Trust IT <it@severnvaletrust.org.uk>","all staff","Change to password policy from November","","Dear all,
+
+From November, passwords will need to be at least 14 characters and will no longer expire every 90 days. You will be prompted to change your password once when the new policy starts. Nothing needs to be done before then.
+
+A reminder that the IT team will never ask for your password. Any email requesting it should be reported.
+
+Trust IT Team","Change to password policy from November Dear all,
+
+From November, passwords will need to be at least 14 characters and will no longer expire every 90 days. You will be prompted to change your password once when the new policy starts. Nothing needs to be done before then.
+
+A reminder that the IT team will never ask for your password. Any email requesting it should be reported.
+
+Trust IT Team"
+"synth_48","Synthetic (LLM-generated for this project)","fictional","secondary school","Payroll date change","0","Severn Vale Academy Trust HR <hr@severnvaletrust.org.uk>","all staff","December pay date","","Dear colleagues,
+
+As in previous years, December salaries will be paid early, on Friday 19 December, because of the Christmas closure. Payslips will be available on the HR portal from 17 December.
+
+HR Team","December pay date Dear colleagues,
+
+As in previous years, December salaries will be paid early, on Friday 19 December, because of the Christmas closure. Payslips will be available on the HR portal from 17 December.
+
+HR Team"
+"synth_49","Synthetic (LLM-generated for this project)","fictional","university","Pension auto-enrolment","0","Pensions Team <pensions@avonside.ac.uk>","new staff","Your pension enrolment","","Dear colleague,
+
+As a new member of staff you have been automatically enrolled in the university pension scheme. Your contribution rate and the employer contribution are shown on your first payslip. You can opt out within one month if you wish; the form is on the HR intranet.
+
+If you have questions, book an appointment with the Pensions Team through the HR portal.
+
+Pensions Team","Your pension enrolment Dear colleague,
+
+As a new member of staff you have been automatically enrolled in the university pension scheme. Your contribution rate and the employer contribution are shown on your first payslip. You can opt out within one month if you wish; the form is on the HR intranet.
+
+If you have questions, book an appointment with the Pensions Team through the HR portal.
+
+Pensions Team"
+"synth_50","Synthetic (LLM-generated for this project)","fictional","secondary school","Benefits window","0","Severn Vale Academy Trust HR <hr@severnvaletrust.org.uk>","all staff","Cycle to Work and childcare vouchers – applications open","","Applications for the Cycle to Work scheme and the childcare voucher scheme are open until 31 October. Details and the application forms are on the HR intranet under 'Benefits'.
+
+HR Team","Cycle to Work and childcare vouchers – applications open Applications for the Cycle to Work scheme and the childcare voucher scheme are open until 31 October. Details and the application forms are on the HR intranet under 'Benefits'.
+
+HR Team"
+"synth_51","Synthetic (LLM-generated for this project)","fictional","secondary school","Staff survey","0","Brookmere High School <office@brookmerehigh.org.uk>","all staff","Staff wellbeing survey – closes Friday","","A reminder that the anonymous staff wellbeing survey closes this Friday. The link is on the staff intranet homepage. Thank you to everyone who has already completed it.
+
+SLT","Staff wellbeing survey – closes Friday A reminder that the anonymous staff wellbeing survey closes this Friday. The link is on the staff intranet homepage. Thank you to everyone who has already completed it.
+
+SLT"
+"synth_52","Synthetic (LLM-generated for this project)","fictional","secondary school","Snow closure (urgent, legitimate)","0","Brookmere High School <office@brookmerehigh.org.uk>","parents and carers","URGENT: School closed today due to snow","","Dear parents and carers,
+
+Due to heavy snow and dangerous conditions on local roads, the school is CLOSED to all pupils today, Tuesday 13 January. Work has been set on Google Classroom. We will update the school website and text parents by 6pm about tomorrow.
+
+Please stay safe.
+
+School Office","URGENT: School closed today due to snow Dear parents and carers,
+
+Due to heavy snow and dangerous conditions on local roads, the school is CLOSED to all pupils today, Tuesday 13 January. Work has been set on Google Classroom. We will update the school website and text parents by 6pm about tomorrow.
+
+Please stay safe.
+
+School Office"
+"synth_53","Synthetic (LLM-generated for this project)","fictional","secondary school","Exam timetable","0","Exams Office <exams@brookmerehigh.org.uk>","Year 11 pupils and parents","Mock exam timetable – November","","Dear pupils and parents,
+
+The Year 11 mock exam timetable is now on the school website and has been given to pupils in form time. Exams start on Monday 10 November. Pupils must arrive 15 minutes before each exam with clear pencil cases and water in a clear bottle.
+
+Please contact the Exams Office via the school office with any queries.
+
+Exams Office","Mock exam timetable – November Dear pupils and parents,
+
+The Year 11 mock exam timetable is now on the school website and has been given to pupils in form time. Exams start on Monday 10 November. Pupils must arrive 15 minutes before each exam with clear pencil cases and water in a clear bottle.
+
+Please contact the Exams Office via the school office with any queries.
+
+Exams Office"
+"synth_54","Synthetic (LLM-generated for this project)","fictional","secondary school","Results day arrangements","0","Exams Office <exams@brookmerehigh.org.uk>","Year 11 pupils","GCSE results day – Thursday 20 August","","GCSE results will be available for collection from the main hall between 9am and 11am on Thursday 20 August. Please bring photo ID. If you cannot collect in person, results can be sent by post if you leave a stamped addressed envelope with the Exams Office before the end of term.
+
+Exams Office","GCSE results day – Thursday 20 August GCSE results will be available for collection from the main hall between 9am and 11am on Thursday 20 August. Please bring photo ID. If you cannot collect in person, results can be sent by post if you leave a stamped addressed envelope with the Exams Office before the end of term.
+
+Exams Office"
+"synth_55","Synthetic (LLM-generated for this project)","fictional","university","Coursework deadline","0","Dr Helen Ashworth <h.ashworth@avonside.ac.uk>","module students","CS2041 coursework deadline – Friday 24 October, 2pm","","Hi everyone,
+
+A reminder that the CS2041 coursework is due on Friday 24 October at 2pm via Turnitin on Moodle. Late submissions incur the standard penalty unless you have an approved extension.
+
+I'll run a drop-in session on Wednesday at 12 in room 3.14 if you have questions.
+
+Helen","CS2041 coursework deadline – Friday 24 October, 2pm Hi everyone,
+
+A reminder that the CS2041 coursework is due on Friday 24 October at 2pm via Turnitin on Moodle. Late submissions incur the standard penalty unless you have an approved extension.
+
+I'll run a drop-in session on Wednesday at 12 in room 3.14 if you have questions.
+
+Helen"
+"synth_56","Synthetic (LLM-generated for this project)","fictional","university","Library loan due with fine","0","Library Services <library@westmoor.ac.uk>","student","Items due tomorrow","","The following items are due for return tomorrow:
+
+- Introduction to Statistical Learning (2nd ed.)
+- Data Science for Business
+
+You can renew online through your library account or by visiting the library. Overdue items incur a charge of 20p per day.
+
+Library Services","Items due tomorrow The following items are due for return tomorrow:
+
+- Introduction to Statistical Learning (2nd ed.)
+- Data Science for Business
+
+You can renew online through your library account or by visiting the library. Overdue items incur a charge of 20p per day.
+
+Library Services"
+"synth_57","Synthetic (LLM-generated for this project)","fictional","university","Tuition fee invoice (legitimate)","0","Finance Office <fees@westmoor.ac.uk>","student","Tuition fee invoice 2026/27","","Dear student,
+
+Your tuition fee invoice for 2026/27 is now available in the student portal under 'My Finances'. If your fees are paid by Student Finance England, no action is needed. If you are self-funding, the first instalment is due by 31 October and can be paid through the portal.
+
+For queries, contact the Finance Office on 0117 000 0001.
+
+Finance Office","Tuition fee invoice 2026/27 Dear student,
+
+Your tuition fee invoice for 2026/27 is now available in the student portal under 'My Finances'. If your fees are paid by Student Finance England, no action is needed. If you are self-funding, the first instalment is due by 31 October and can be paid through the portal.
+
+For queries, contact the Finance Office on 0117 000 0001.
+
+Finance Office"
+"synth_58","Synthetic (LLM-generated for this project)","fictional","university","Bursary applications open","0","Student Support <support@avonside.ac.uk>","all students","Hardship fund applications now open","","Applications to the University Hardship Fund are now open. The fund supports students in unexpected financial difficulty. Information about eligibility and the application form are on the Student Support pages of the intranet. Applications are assessed monthly.
+
+Student Support","Hardship fund applications now open Applications to the University Hardship Fund are now open. The fund supports students in unexpected financial difficulty. Information about eligibility and the application form are on the Student Support pages of the intranet. Applications are assessed monthly.
+
+Student Support"
+"synth_59","Synthetic (LLM-generated for this project)","fictional","university","Accommodation deposit return (legitimate)","0","Accommodation Office <accommodation@westmoor.ac.uk>","student","Deposit return – end of tenancy","","Dear resident,
+
+Your tenancy ends on 30 June. Deposits will be returned to the bank account you registered when you accepted your room, within 28 days of the room inspection. You do not need to do anything. If your bank details have changed, update them in the accommodation portal before you move out.
+
+Accommodation Office","Deposit return – end of tenancy Dear resident,
+
+Your tenancy ends on 30 June. Deposits will be returned to the bank account you registered when you accepted your room, within 28 days of the room inspection. You do not need to do anything. If your bank details have changed, update them in the accommodation portal before you move out.
+
+Accommodation Office"
+"synth_60","Synthetic (LLM-generated for this project)","fictional","university","Timetable change (legitimate)","0","Timetabling <timetabling@avonside.ac.uk>","students on CS2041","Room change: CS2041 lecture moved to 2Q10","","Please note that from next week the Tuesday CS2041 lecture will take place in room 2Q10 instead of 2Q04. Your online timetable has been updated.
+
+Timetabling Office","Room change: CS2041 lecture moved to 2Q10 Please note that from next week the Tuesday CS2041 lecture will take place in room 2Q10 instead of 2Q04. Your online timetable has been updated.
+
+Timetabling Office"
+"synth_61","Synthetic (LLM-generated for this project)","fictional","university","Teams meeting invite (legitimate)","0","Sarah Lewis <s.lewis@westmoor.ac.uk>","department","Departmental meeting – Wednesday 10am","","Hi all,
+
+The next departmental meeting is on Wednesday at 10am in the boardroom, with a Teams link in the calendar invite for anyone working from home. Agenda items to me by Monday please.
+
+Thanks,
+Sarah","Departmental meeting – Wednesday 10am Hi all,
+
+The next departmental meeting is on Wednesday at 10am in the boardroom, with a Teams link in the calendar invite for anyone working from home. Agenda items to me by Monday please.
+
+Thanks,
+Sarah"
+"synth_62","Synthetic (LLM-generated for this project)","fictional","university","Shared document (legitimate)","0","Sarah Lewis <s.lewis@westmoor.ac.uk>","colleague","Draft programme review – comments welcome","","Hi Tom,
+
+I've put the draft programme review in our shared Teams folder (Department > Reviews > 2026). Could you add your comments on the assessment section by Friday? Happy to talk it through if easier.
+
+Sarah","Draft programme review – comments welcome Hi Tom,
+
+I've put the draft programme review in our shared Teams folder (Department > Reviews > 2026). Could you add your comments on the assessment section by Friday? Happy to talk it through if easier.
+
+Sarah"
+"synth_63","Synthetic (LLM-generated for this project)","fictional","secondary school","IT ticket closed","0","IT Helpdesk <ithelpdesk@severnvaletrust.org.uk>","staff","Ticket #4821 resolved: projector in room 12","","Your ticket #4821 (projector in room 12 not connecting) has been marked as resolved. The HDMI cable has been replaced. If the problem continues, reply to this email to reopen the ticket.
+
+IT Helpdesk","Ticket #4821 resolved: projector in room 12 Your ticket #4821 (projector in room 12 not connecting) has been marked as resolved. The HDMI cable has been replaced. If the problem continues, reply to this email to reopen the ticket.
+
+IT Helpdesk"
+"synth_64","Synthetic (LLM-generated for this project)","fictional","secondary school","Printing credit","0","Kingsmead College <reprographics@kingsmeadcollege.ac.uk>","students","Printing credit and reprographics hours","","Students can top up printing credit at the library desk (cash or card). Reprographics is open 8.15am–4pm Monday to Friday. Please allow 24 hours for large print jobs.
+
+Reprographics","Printing credit and reprographics hours Students can top up printing credit at the library desk (cash or card). Reprographics is open 8.15am–4pm Monday to Friday. Please allow 24 hours for large print jobs.
+
+Reprographics"
+"synth_65","Synthetic (LLM-generated for this project)","fictional","secondary school","Software renewal (legitimate)","0","IT Helpdesk <ithelpdesk@severnvaletrust.org.uk>","art department","Adobe licences renewed for 2026/27","","The trust's Adobe Creative Cloud licences have been renewed for the coming year. No action is needed; existing sign-ins will continue to work. If any machine shows a licence warning, log a ticket.
+
+IT Helpdesk","Adobe licences renewed for 2026/27 The trust's Adobe Creative Cloud licences have been renewed for the coming year. No action is needed; existing sign-ins will continue to work. If any machine shows a licence warning, log a ticket.
+
+IT Helpdesk"
+"synth_66","Synthetic (LLM-generated for this project)","fictional","secondary school","Internal vacancy","0","Severn Vale Academy Trust HR <hr@severnvaletrust.org.uk>","all staff","Internal vacancy: Assistant Head of Year","","An internal vacancy for Assistant Head of Year (Brookmere High School) has been advertised. The job description and application form are on the HR intranet. Closing date: Friday 10 October, 12 noon. Informal enquiries to the Headteacher.
+
+HR Team","Internal vacancy: Assistant Head of Year An internal vacancy for Assistant Head of Year (Brookmere High School) has been advertised. The job description and application form are on the HR intranet. Closing date: Friday 10 October, 12 noon. Informal enquiries to the Headteacher.
+
+HR Team"
+"synth_67","Synthetic (LLM-generated for this project)","fictional","secondary school","Interview invitation","0","Brookmere High School <office@brookmerehigh.org.uk>","applicant","Interview: Teacher of Mathematics","","Dear Ms Moore,
+
+Thank you for your application. We would like to invite you to interview on Wednesday 15 October. Please arrive at reception at 8.45am and bring photo ID and your original qualification certificates. The day will include a 30-minute lesson observation with Year 9; details of the topic are on the second page of this letter.
+
+Please confirm your attendance by replying to this email or calling the school office.
+
+Kind regards,
+School Office","Interview: Teacher of Mathematics Dear Ms Moore,
+
+Thank you for your application. We would like to invite you to interview on Wednesday 15 October. Please arrive at reception at 8.45am and bring photo ID and your original qualification certificates. The day will include a 30-minute lesson observation with Year 9; details of the topic are on the second page of this letter.
+
+Please confirm your attendance by replying to this email or calling the school office.
+
+Kind regards,
+School Office"
+"synth_68","Synthetic (LLM-generated for this project)","fictional","secondary school","CPD course","0","Severn Vale Academy Trust <cpd@severnvaletrust.org.uk>","all staff","CPD: Adaptive teaching – 22 October, 4pm","","A trust-wide CPD session on adaptive teaching will be held on Wednesday 22 October at 4pm at Oakfield Academy. Book through the CPD calendar on the intranet. Refreshments provided.
+
+CPD Team","CPD: Adaptive teaching – 22 October, 4pm A trust-wide CPD session on adaptive teaching will be held on Wednesday 22 October at 4pm at Oakfield Academy. Book through the CPD calendar on the intranet. Refreshments provided.
+
+CPD Team"
+"synth_69","Synthetic (LLM-generated for this project)","fictional","secondary school","DBS renewal","0","Severn Vale Academy Trust HR <hr@severnvaletrust.org.uk>","staff member","DBS update service – annual check","","Dear colleague,
+
+As part of our annual safeguarding checks, HR will carry out a status check on your DBS certificate through the Update Service this month. No action is needed from you unless we contact you.
+
+HR Team","DBS update service – annual check Dear colleague,
+
+As part of our annual safeguarding checks, HR will carry out a status check on your DBS certificate through the Update Service this month. No action is needed from you unless we contact you.
+
+HR Team"
+"synth_70","Synthetic (LLM-generated for this project)","fictional","secondary school","Fire drill","0","Brookmere High School <office@brookmerehigh.org.uk>","all staff","Fire drill this week","","There will be a fire drill at some point this week. Please remind your classes of the assembly point on the top field and take your register with you.
+
+Site Team","Fire drill this week There will be a fire drill at some point this week. Please remind your classes of the assembly point on the top field and take your register with you.
+
+Site Team"
+"synth_71","Synthetic (LLM-generated for this project)","fictional","university","Phishing awareness (legitimate)","0","IT Services <itservices@westmoor.ac.uk>","all staff and students","Beware of fake 'password expiry' emails","","We are aware of phishing emails circulating that claim your university password is about to expire and ask you to 'keep your current password' via a link. These are not from IT Services. Please delete them or report them using the 'Report phishing' button in Outlook.
+
+Genuine password reminders come only from your own account settings and never ask you to enter your password on an external site.
+
+IT Services","Beware of fake 'password expiry' emails We are aware of phishing emails circulating that claim your university password is about to expire and ask you to 'keep your current password' via a link. These are not from IT Services. Please delete them or report them using the 'Report phishing' button in Outlook.
+
+Genuine password reminders come only from your own account settings and never ask you to enter your password on an external site.
+
+IT Services"
+"synth_72","Synthetic (LLM-generated for this project)","fictional","secondary school","Lost property","0","Brookmere High School <office@brookmerehigh.org.uk>","parents and carers","Lost property – end of term","","A large amount of unnamed lost property has accumulated in reception. Please encourage your child to check it before the end of term. Unclaimed items will be donated to the PTA uniform sale.
+
+School Office","Lost property – end of term A large amount of unnamed lost property has accumulated in reception. Please encourage your child to check it before the end of term. Unclaimed items will be donated to the PTA uniform sale.
+
+School Office"
+"synth_73","Synthetic (LLM-generated for this project)","fictional","secondary school","School photo day","0","Brookmere High School <office@brookmerehigh.org.uk>","parents and carers","School photographs – Tuesday 23 September","","Individual school photographs will be taken on Tuesday 23 September. Pupils should be in full uniform. Proof cards will be sent home with pupils about two weeks later, with details of how to order.
+
+School Office","School photographs – Tuesday 23 September Individual school photographs will be taken on Tuesday 23 September. Pupils should be in full uniform. Proof cards will be sent home with pupils about two weeks later, with details of how to order.
+
+School Office"
+"synth_74","Synthetic (LLM-generated for this project)","fictional","secondary school","Cashless catering (legitimate)","0","Brookmere High School <office@brookmerehigh.org.uk>","parents and carers","Catering accounts – reminder","","A reminder that catering accounts should be kept in credit. You can check your child's balance and top up through ParentPay in the usual way. Pupils entitled to free school meals have their allowance added automatically each day.
+
+School Office","Catering accounts – reminder A reminder that catering accounts should be kept in credit. You can check your child's balance and top up through ParentPay in the usual way. Pupils entitled to free school meals have their allowance added automatically each day.
+
+School Office"
+"synth_75","Synthetic (LLM-generated for this project)","fictional","secondary school","PE kit reminder","0","PE Department <pe@brookmerehigh.org.uk>","parents of Year 7","PE kit and outdoor lessons","","As the weather changes, please make sure your child has a warm layer for outdoor PE lessons. Full PE kit is required for every lesson; a note is needed if your child cannot take part.
+
+PE Department","PE kit and outdoor lessons As the weather changes, please make sure your child has a warm layer for outdoor PE lessons. Full PE kit is required for every lesson; a note is needed if your child cannot take part.
+
+PE Department"
+"synth_76","Synthetic (LLM-generated for this project)","fictional","secondary school","Minibus booking","0","Site Team <site@brookmerehigh.org.uk>","staff","Minibus booking sheet","","The minibus booking sheet for the autumn term is now in the staffroom. Drivers must have completed the MIDAS assessment; see the site office if yours needs renewing.
+
+Site Team","Minibus booking sheet The minibus booking sheet for the autumn term is now in the staffroom. Drivers must have completed the MIDAS assessment; see the site office if yours needs renewing.
+
+Site Team"
+"synth_77","Synthetic (LLM-generated for this project)","fictional","secondary school","Exam invigilator recruitment","0","Exams Office <exams@brookmerehigh.org.uk>","parents and community","Exam invigilators wanted","","We are recruiting exam invigilators for the summer exam season (May–June). Training is provided and hours are flexible. If you are interested, please contact the Exams Office via the school office for an application pack.
+
+Exams Office","Exam invigilators wanted We are recruiting exam invigilators for the summer exam season (May–June). Training is provided and hours are flexible. If you are interested, please contact the Exams Office via the school office for an application pack.
+
+Exams Office"
+"synth_78","Synthetic (LLM-generated for this project)","fictional","university","Graduation registration","0","Graduation Office <graduation@westmoor.ac.uk>","final-year students","Register for your graduation ceremony","","Registration for the winter graduation ceremonies is open in the student portal until 31 October. Guest tickets are £15 each. Gown hire is arranged separately through the supplier linked from the portal. Ceremony dates and times are on the graduation web pages.
+
+Graduation Office","Register for your graduation ceremony Registration for the winter graduation ceremonies is open in the student portal until 31 October. Guest tickets are £15 each. Gown hire is arranged separately through the supplier linked from the portal. Ceremony dates and times are on the graduation web pages.
+
+Graduation Office"
+"synth_79","Synthetic (LLM-generated for this project)","fictional","university","Research ethics approval","0","Research Ethics Committee <ethics@avonside.ac.uk>","researcher","Ethics application REC-2026-118 approved","","Dear Ms Ercsei,
+
+Your ethics application REC-2026-118 has been approved by Chair's action. Please quote this reference on participant information sheets. Any changes to the approved protocol must be submitted as an amendment.
+
+Research Ethics Committee","Ethics application REC-2026-118 approved Dear Ms Ercsei,
+
+Your ethics application REC-2026-118 has been approved by Chair's action. Please quote this reference on participant information sheets. Any changes to the approved protocol must be submitted as an amendment.
+
+Research Ethics Committee"
+"synth_80","Synthetic (LLM-generated for this project)","fictional","university","Lab safety","0","Technical Services <labs@avonside.ac.uk>","lab users","Chemistry lab access – induction required","","All new users of the second-floor chemistry laboratories must complete the safety induction before working unsupervised. Inductions run on Tuesdays and Thursdays at 2pm; sign up on the sheet outside the technicians' office.
+
+Technical Services","Chemistry lab access – induction required All new users of the second-floor chemistry laboratories must complete the safety induction before working unsupervised. Inductions run on Tuesdays and Thursdays at 2pm; sign up on the sheet outside the technicians' office.
+
+Technical Services"

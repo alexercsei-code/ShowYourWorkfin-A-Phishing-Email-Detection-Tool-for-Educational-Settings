@@ -1,53 +1,58 @@
-# A-Phishing-Email-Detection-Tool-for-Educational-Settings
-An explainable machine-learning tool that estimates the phishing risk of an email and explains the signals behind the result, designed for non-technical staff in schools and colleges. MSc Data Science Masters Project, UWE Bristol, 2026.
-
-# A Phishing Email Detection Tool for Educational Settings
+# Show Your Workfin 🐟
+### A phishing email detection tool for educational settings
 
 MSc Data Science – Masters Project (UFCF9Y-60-M)
 School of Computing and Creative Technologies, UWE Bristol
 Author: Estera-Alexandra Ercsei · Supervisor: Alireza Bolhari · September 2026
 
-## What this project is
+## What it is
 
-Schools and colleges are frequent phishing targets but rarely have specialist cyber-security staff, and repeated awareness training shows limited lasting effect. This project builds and evaluates a lightweight, explainable phishing email classifier aimed at non-technical school staff. A user pastes the body text of a suspicious email and receives an estimated phishing-risk percentage together with a plain-language explanation of the signals behind it (for example urgent language, credential or payment requests, or mismatched links).
+Schools and colleges are frequent phishing targets but rarely have specialist cyber-security staff. Show Your Workfin is a lightweight, explainable phishing checker for non-technical school staff: paste the text of a suspicious email and get an estimated phishing-risk percentage plus a plain-language list of the warning signs it found (urgent language, requests for passwords or payment, links, and so on). Optionally, pasting the full message source also reports the sender's SPF/DKIM/DMARC authentication results.
 
-The tool is decision support, not a guarantee. It complements existing email filtering, reporting processes and staff judgement rather than replacing them.
+It is decision support, not a filter. It sits alongside a school's existing email security and reporting process, and it stores nothing that is pasted into it.
 
 ## Objectives
 
 1. Develop a machine-learning phishing email classifier using features identified in the literature.
-2. Build a functional tool that analyses and flags suspicious emails in an educational context.
-3. Evaluate model performance using recall, precision, F1-score, AUC and calibration, including cross-source generalisation to education-targeted emails.
-4. Design a simple interface for non-technical staff and assess its suitability through structured usability testing.
+2. Build a functional tool that analyses and explains suspicious emails for an educational audience.
+3. Evaluate the classifier with recall, precision, F1, AUC and calibration, using leave-one-source-out validation to measure generalisation to unseen sources.
+4. Design a simple interface for non-technical staff and assess it through structured usability testing.
 
 ## Approach
 
-- **Data:** three public Kaggle datasets combined into one corpus, with a separate education-only set held out for cross-source testing. See `data/README.md` for sources and licences. No data is stored in this repository.
-- **Cleaning:** structural cleaning, de-duplication, and removal of source-identifying artefacts to reduce data leakage.
-- **Features:** TF-IDF text representation plus structural features such as URL count, urgency terms and capitalisation.
-- **Models:** Logistic Regression (baseline), Random Forest and SVM, compared with k-fold cross-validation and probability calibration for the percentage output.
-- **Explainability:** model outputs are mapped to recognisable phishing indicators so the explanation is meaningful to a non-specialist.
-
-Classical models and TF-IDF were chosen over transformer models for interpretability, low compute requirements and reproducibility, which suit a school deployment context.
+- **Data.** Three public Kaggle corpora (see `data/README.md`). The combined training set holds ~87,000 emails from seven sources. The raw datasets are not stored in this repository; notebook 01 regenerates them.
+- **Cleaning.** HTML and header removal, placeholder tokens for links, addresses and numbers, a 5,000-character cap, de-duplication, and removal of dataset-identifying "give-away" words. A source-attribution probe showed the corpora remain distinguishable by topic and style after cleaning (87.8% vs 12.5% chance), so evaluation design, not scrubbing, is the main safeguard against leakage.
+- **The EduPhish finding.** The one public "education-targeted" dataset turned out to be a keyword-filtered subset of the same corpora used for training, with ≥27% near-duplicates of training emails and little genuine education content. It was dropped as a test set. The investigation is in notebook 03.
+- **Features.** TF-IDF (1–2 grams) plus 13 structural features (link count, urgency/credential/money terms, capitalisation, punctuation) grounded in NCSC phishing guidance. The structural features also drive the app's explanations.
+- **Models.** Logistic Regression, Random Forest and linear SVM compared under 5-fold cross-validation; linear SVM with TF-IDF + structural features selected and isotonically calibrated.
+- **Evaluation.** 5-fold CV (upper bound, F1 0.99) versus leave-one-source-out (F1 0.85, AUC 0.97), an 80-email synthetic AI-written education test set (F1 0.76), and a 15-email illustrative demonstration on real university phishing and simulated school emails. Warning thresholds (30% / 70%) were chosen from cross-source predictions.
 
 ## Repository layout
 
 ```
-code/   Colab notebooks, numbered in pipeline order (download → explore → clean → train → evaluate)
-data/        Not stored here. README explains where the data comes from and how to regenerate it.
-results/     Figures and metric tables produced during evaluation
-docs/        Licence notices, ethics notes and other supporting material
+app/            Streamlit app (app.py) and the trained model (app/model/)
+notebooks/      Colab notebooks in pipeline order: download → explore → clean → train → evaluate
+data/           Sources and licences (README); the two small test files created for this project
+results/        Figures and metric tables used in the dissertation
+docs/           Licence notices and others
 ```
 
-## How to reproduce
+## Running the app
 
-1. Open `notebooks/01_download_data.ipynb` in Google Colab.
+```
+pip install -r requirements.txt
+cd app
+streamlit run app.py
+```
+
+Requires Python 3.11+ and scikit-learn 1.6.1 (the version the model was saved with).
+
+## Reproducing the model
+
+1. Open `notebooks/01_data_download.ipynb` in Google Colab.
 2. Add your Kaggle username and API key to Colab Secrets as `KAGGLE_USERNAME` and `KAGGLE_KEY`.
-3. Run the notebook top to bottom. It downloads the three datasets, cleans them, and saves `phishing_combined.csv` and `phishing_education.csv` to your Google Drive.
-4. Run the remaining notebooks in numerical order.
-
-Libraries used are listed in `requirements.txt`.
+3. Run the notebooks in order. Notebook 04 writes `features.py` and `phishing_model.joblib`, which the app uses.
 
 ## Ethics
 
-All data comes from publicly available, research-licensed datasets; no personal data was collected by the author. The prototype does not permanently store any email text submitted for analysis. Usability testing follows UWE ethical approval, with informed consent and anonymised feedback. Details are in the dissertation, Chapter 5.
+All training data comes from publicly available, research-licensed datasets; no personal data was collected. The app analyses pasted text in memory and does not store it. The demonstration set uses phishing examples published by UWE Bristol, the University of Bristol and the University of Birmingham for awareness purposes, already redacted by those institutions, plus simulated school emails written for this project. Usability testing follows UWE ethical approval with informed consent and anonymised feedback.

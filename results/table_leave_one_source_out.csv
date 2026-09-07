@@ -1,0 +1,15 @@
+feature_set,held_out_source,n,phishing_share,recall,precision,f1,auc,false_alarm_rate,minutes
+A: TF-IDF only,CEAS_08,34309,0.499,0.811,0.928,0.866,0.955,0.063,2.863
+A: TF-IDF only,Enron,29406,0.474,0.924,0.757,0.832,0.922,0.267,2.818
+A: TF-IDF only,Ling,2857,0.16,0.926,0.635,0.753,0.975,0.102,3.297
+A: TF-IDF only,Nazario,1542,1.0,0.651,,,,,3.461
+A: TF-IDF only,Nigerian_Fraud,3255,1.0,0.989,,,,,3.381
+A: TF-IDF only,SpamAssasin,5764,0.292,0.967,0.735,0.836,0.98,0.143,3.356
+A: TF-IDF only,kuladeep_synthetic,9676,0.62,0.873,0.995,0.93,0.993,0.007,3.384
+B: TF-IDF + structural,CEAS_08,34309,0.499,0.817,0.916,0.864,0.952,0.074,2.843
+B: TF-IDF + structural,Enron,29406,0.474,0.903,0.785,0.84,0.928,0.223,2.727
+B: TF-IDF + structural,Ling,2857,0.16,0.919,0.641,0.755,0.974,0.098,3.44
+B: TF-IDF + structural,Nazario,1542,1.0,0.635,,,,,3.438
+B: TF-IDF + structural,Nigerian_Fraud,3255,1.0,0.987,,,,,3.451
+B: TF-IDF + structural,SpamAssasin,5764,0.292,0.967,0.763,0.853,0.983,0.123,3.558
+B: TF-IDF + structural,kuladeep_synthetic,9676,0.62,0.896,0.992,0.941,0.993,0.013,3.529
