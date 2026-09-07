@@ -5,6 +5,8 @@ MSc Data Science – Masters Project (UFCF9Y-60-M)
 School of Computing and Creative Technologies, UWE Bristol
 Author: Estera-Alexandra Ercsei · Supervisor: Alireza Bolhari · September 2026
 
+https://33t7wppx5bfucdmdz9uhmz.streamlit.app/
+
 ## What it is
 
 Schools and colleges are frequent phishing targets but rarely have specialist cyber-security staff. Show Your Workfin is a lightweight, explainable phishing checker for non-technical school staff: paste the text of a suspicious email and get an estimated phishing-risk percentage plus a plain-language list of the warning signs it found (urgent language, requests for passwords or payment, links, and so on). Optionally, pasting the full message source also reports the sender's SPF/DKIM/DMARC authentication results.
