@@ -1,0 +1,6 @@
+*.csv
+!data/*.csv
+!results/*.csv
+__pycache__/
+.venv/
+Secret/

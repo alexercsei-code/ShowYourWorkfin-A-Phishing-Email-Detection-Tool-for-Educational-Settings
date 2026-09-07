@@ -1,0 +1,9 @@
+source,legitimate (0),phishing (1),total,% phishing
+CEAS_08,17312,21833,39145,55.8
+Enron,15791,13954,29745,46.9
+Ling,2401,458,2859,16.0
+Nazario,0,1564,1564,100.0
+Nigerian_Fraud,0,3319,3319,100.0
+SpamAssasin,4091,1718,5809,29.6
+eduphish,6945,6011,12956,46.4
+kuladeep_synthetic,3956,6000,9956,60.3

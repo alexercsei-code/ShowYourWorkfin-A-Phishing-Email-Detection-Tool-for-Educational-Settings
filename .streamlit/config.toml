@@ -1,0 +1,17 @@
+[theme]
+# Show Your Workfin – blue theme
+primaryColor = "#1F5FA8"          # buttons, links, focus rings
+backgroundColor = "#F4F8FC"       # page background: very light blue
+secondaryBackgroundColor = "#E3EDF7"  # sidebar and text box background
+textColor = "#14213D"             # dark navy text
+font = "sans serif"
+ 
+
+
+
+
+
+
+
+
+
