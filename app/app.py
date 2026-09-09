@@ -4,8 +4,8 @@ Paste the text of an email, get an estimated phishing risk and the reasons
 behind it, in plain language. Nothing typed here is stored.
 
 Run with:   streamlit run app.py
-Needs:      ../model/phishing_model.joblib and ../Model/features.py
-            (copy the Model folder from Google Drive next to the app folder)
+Needs:      ../Model/phishing_model.joblib and ../Model/features.py
+
 """
 
 import os
@@ -15,13 +15,10 @@ import sys
 import numpy as np
 import streamlit as st
 
+# Where the model lives. The app folder and the Model folder sit side by side.
 
-# Where the model lives: the "model" folder next to this file.
-try:
-    HERE = os.path.dirname(os.path.abspath(__file__))
-except NameError:
-    HERE = os.getcwd()
-MODEL_DIR = os.path.join(HERE, "model")
+HERE = os.path.dirname(os.path.abspath(__file__))
+MODEL_DIR = os.path.join(os.path.dirname(HERE), "Model")
 sys.path.append(MODEL_DIR)
 
 import features  # noqa: E402  (the same features.py used in training)
@@ -32,7 +29,6 @@ def load_model():
     """Load the saved model once and keep it in memory."""
     import joblib
     return joblib.load(os.path.join(MODEL_DIR, "phishing_model.joblib"))
-
 
 
 # Turning model output into reasons a person can act on
@@ -64,7 +60,6 @@ def found_words(text, word_list, limit=4):
     lower = text.lower()
     hits = [w for w in word_list if w in lower]
     return hits[:limit]
-
 
 
 
@@ -194,11 +189,80 @@ def risk_band(p):
     if p >= 0.70:
         return ("Likely phishing", "#B3261E",
                 "Treat this email as unsafe. Do not click links or open attachments.")
-    if p >= 0.35:
+    if p >= 0.30:
         return ("Be cautious", "#B26A00",
                 "Some warning signs are present. Check with the sender through a different route before acting.")
     return ("Probably legitimate", "#1B6E3A",
             "Few warning signs found. Stay alert if it asks you to do anything unusual.")
+
+
+# Shared wording and rendering helpers
+# The disclaimer, next steps and About text are defined once here so they cannot drift apart, and the small render_* helpers remove the repeated st.markdown blocks that built the same HTML in three places.
+
+DISCLAIMER = (
+    "This tool is decision support, not a guarantee. It looks at the wording of the "
+    "message (and the sender checks if you pasted them), not at links or attachments, "
+    "and it can be wrong in both directions."
+)
+
+NEXT_STEPS = [
+    "Don't click links or open attachments you weren't expecting.",
+    "If it asks you to do something, check with the sender by phone or in person, "
+    "not by replying.",
+    "Report it using your school's usual process, even if you're not sure.",
+]
+
+ABOUT = (
+    "Show Your Workfin was built as an MSc Data Science project at UWE Bristol, 2026. "
+    "It is decision support for school staff, not a replacement for your school's email "
+    "filtering or reporting process."
+)
+
+
+def quiet(text, top_margin=None):
+    """Small grey text, used for captions and caveats."""
+    style = f' style="margin-top:{top_margin}"' if top_margin else ""
+    st.markdown(f'<p class="quiet"{style}>{text}</p>', unsafe_allow_html=True)
+
+
+def reason_card(title, detail):
+    """One row in the "Our working" list."""
+    st.markdown(f'<div class="reason"><b>{title}</b><span>{detail}</span></div>',
+                unsafe_allow_html=True)
+
+
+def render_verdict(prob):
+    """The coloured result box: band, percentage and advice."""
+    label, colour, advice = risk_band(prob)
+    st.markdown(
+        f'<div class="verdict" style="--c:{colour}">'
+        f'<div class="label">{label}</div>'
+        f'<div class="pct">{prob*100:.0f}%</div>'
+        f'<div class="quiet">estimated chance this is a phishing email</div>'
+        f'<div class="advice" style="margin-top:0.6rem">{advice}</div>'
+        f'</div>',
+        unsafe_allow_html=True,
+    )
+
+
+def render_disclosures(reasons, words):
+    """Everything below the verdict: the reasons found, what to do next, and
+    the caveat. Called once, so the wording lives in a single place."""
+    st.subheader("Our working")
+    if not reasons and not words:
+        quiet("No specific warning signs stood out. The score is based on the "
+              "overall wording of the message.")
+    for title, detail in reasons:
+        reason_card(title, detail)
+    if words:
+        wl = ", ".join(f"\u201c{w}\u201d" for w, _ in words)
+        reason_card("Wording that resembles known phishing emails", wl)
+
+    st.subheader("What to do")
+    st.markdown("\n".join(f"- {step}" for step in NEXT_STEPS))
+
+    quiet(DISCLAIMER, top_margin="1.5rem")
+
 
 
 # Page
@@ -248,10 +312,12 @@ with st.expander("Optional: include the sender checks"):
         "A **fail** means the email probably didn't come from the address it shows. A **pass** means it "
         "did come from that domain – but a lookalike domain or a hacked account will pass too, so a pass "
         "isn't proof it's safe. That's why the wording check still runs either way.\n\n"
-        "- **Outlook on the web:** open the email, click the three dots (⋯) → **View** → **View message source**, "
-        "select all, copy, and paste here.\n"
-        "- **Outlook desktop:** open the email, **File** → **Properties**, copy the text in *Internet headers*, "
-        "then paste the email text below it with a blank line in between.\n\n"
+        "**How to find it.** Most email programs have an option to view the original or raw "
+        "message, often called *View message source*, *Show original* or *View source*. It is "
+        "usually in the menu you get from the three dots or the arrow next to Reply. Copy "
+        "everything it shows and paste it here.\n\n"
+        "If you cannot find it, paste the email text on its own. The sender checks are a bonus, "
+        "not a requirement.\n\n"
         "This is optional. The checker works from the email text alone."
     )
 
@@ -264,48 +330,14 @@ if check:
         model = load_model()
         headers, body = split_headers(email_text)      # headers is '' unless full source was pasted
         frame = features.make_frame([body])
-        p = float(model.predict_proba(frame)[0, 1])
+        prob = float(model.predict_proba(frame)[0, 1])
         feats = features.structural_features(body)
-        label, colour, advice = risk_band(p)
 
-        st.markdown(
-            f'<div class="verdict" style="--c:{colour}">'
-            f'<div class="label">{label}</div>'
-            f'<div class="pct">{p*100:.0f}%</div>'
-            f'<div class="quiet">estimated chance this is a phishing email</div>'
-            f'<div class="advice" style="margin-top:0.6rem">{advice}</div>'
-            f'</div>',
-            unsafe_allow_html=True,
-        )
+        render_verdict(prob)
 
         reasons = header_reasons(headers) + build_reasons(body, feats)
         words = word_contributions(model, frame)
-
-        st.subheader("Our working")
-        if not reasons and not words:
-            st.markdown('<p class="quiet">No specific warning signs stood out. '
-                        'The score is based on the overall wording of the message.</p>',
-                        unsafe_allow_html=True)
-        for title, detail in reasons:
-            st.markdown(f'<div class="reason"><b>{title}</b><span>{detail}</span></div>',
-                        unsafe_allow_html=True)
-        if words:
-            wl = ", ".join(f"“{w}”" for w, _ in words)
-            st.markdown(f'<div class="reason"><b>Wording that resembles known phishing emails</b>'
-                        f'<span>{wl}</span></div>', unsafe_allow_html=True)
-
-        st.subheader("What to do")
-        st.markdown(
-            "- Don't click links or open attachments you weren't expecting.\n"
-            "- If it asks you to do something, check with the sender by phone or in person, "
-            "not by replying.\n"
-            "- Report it using your school's usual process, even if you're not sure."
-        )
-
-        st.markdown('<p class="quiet" style="margin-top:1.5rem">This tool is decision support, '
-                    'not a guarantee. It looks at the wording of the message (and the sender checks if you pasted them), '
-                    'not at links or attachments, and it can be wrong in both directions.</p>',
-                    unsafe_allow_html=True)
+        render_disclosures(reasons, words)
 
 with st.sidebar:
     st.markdown("**How it works**")
@@ -317,5 +349,4 @@ with st.sidebar:
     st.markdown("**Privacy**")
     st.markdown("The email text is analysed in memory and discarded. Nothing is saved or sent anywhere.")
     st.markdown("**About**")
-    st.markdown("Show Your Workfin was built as an MSc Data Science project at UWE Bristol, 2026. "
-                "It is decision support for school staff, not a replacement for your school's email filtering or reporting process.")
+    st.markdown(ABOUT)
