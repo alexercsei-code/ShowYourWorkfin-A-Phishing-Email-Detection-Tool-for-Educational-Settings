@@ -4,7 +4,8 @@ Paste the text of an email, get an estimated phishing risk and the reasons
 behind it, in plain language. Nothing typed here is stored.
 
 Run with:   streamlit run app.py
-Needs:      ../Model/phishing_model.joblib and ../Model/features.py
+Needs:      model/phishing_model.joblib and model/features.py
+            (the model folder sits next to this file)
 
 """
 
@@ -17,12 +18,18 @@ import streamlit as st
 
 # Where the model lives. The app folder and the Model folder sit side by side.
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-MODEL_DIR = os.path.join(os.path.dirname(HERE), "Model")
+try:
+    HERE = os.path.dirname(os.path.abspath(__file__))
+except NameError:
+    HERE = os.getcwd()
+
+
+MODEL_DIR = os.path.join(HERE, "model")
+if not os.path.isdir(MODEL_DIR):                      # fall back to a capitalised folder
+    MODEL_DIR = os.path.join(HERE, "Model")
 sys.path.append(MODEL_DIR)
 
 import features  # noqa: E402  (the same features.py used in training)
-
 
 @st.cache_resource
 def load_model():
