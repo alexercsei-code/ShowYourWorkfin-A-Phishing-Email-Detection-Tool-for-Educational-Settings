@@ -6,9 +6,9 @@ The raw and cleaned datasets are **not stored in this repository**: they are lar
 
 | # | Dataset | Kaggle ID | Licence / citation |
 |---|---|---|---|
-| 1 | Phishing Email Dataset (Naser Abdullah Alam) | `naserabdullahalam/phishing-email-dataset` | CC BY-SA 4.0; cite Al-Subaiey et al. (2024), arXiv 2405.11619 |
-| 2 | Education-Targeted Phishing Email Dataset (EduPhish) | `tanvirahmed0981/education-targeted-phishing-email-dataset` | LGPL-3.0 derivative compilation; notice in `docs/EduPhish_LICENSE_NOTICE.txt` |
-| 3 | Phishing and Legitimate Emails Dataset (kuladeep19) | `kuladeep19/phishing-and-legitimate-emails-dataset` | See Kaggle page; LLM-generated, not real emails |
+| 1 | Phishing Email Dataset | `naserabdullahalam/phishing-email-dataset` | CC BY-SA 4.0. The dataset page asks that this article be cited: (Al-Subaiey et al., 2024), arXiv:2405.11619 |
+| 2 | EduPhish | `tanvirahmed0981/education-targeted-phishing-email-dataset` | LGPL-3.0 derivative compilation; notice in `docs/EduPhish_LICENSE_NOTICE.txt` |
+| 3 | Phishing and Legitimate Emails | `kuladeep19/phishing-and-legitimate-emails-dataset` | See dataset page |
 
 # Dataset inventory
 
