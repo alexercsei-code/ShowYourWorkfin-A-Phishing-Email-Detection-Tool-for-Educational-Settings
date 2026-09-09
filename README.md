@@ -2,7 +2,9 @@
 ### A phishing email detection tool for educational settings
 
 MSc Data Science – Masters Project (UFCF9Y-60-M)
+
 School of Computing and Creative Technologies, UWE Bristol
+
 Author: Estera-Alexandra Ercsei · September 2026
 
 https://33t7wppx5bfucdmdz9uhmz.streamlit.app/
