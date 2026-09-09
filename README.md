@@ -18,7 +18,7 @@ It is decision support, not a filter. It sits alongside a school's existing emai
 1. Develop a machine-learning phishing email classifier using features identified in the literature.
 2. Build a functional tool that analyses and explains suspicious emails for an educational audience.
 3. Evaluate the classifier with recall, precision, F1, AUC and calibration, using leave-one-source-out validation to measure generalisation to unseen sources.
-4. Design a simple interface for non-technical staff.
+4. Design and deploy a browser interface for non-technical staff, built around documented user needs.
 
 ## Approach
 
