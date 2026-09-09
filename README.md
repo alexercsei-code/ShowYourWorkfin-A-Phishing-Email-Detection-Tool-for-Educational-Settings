@@ -58,3 +58,9 @@ Requires Python 3.11+ and scikit-learn 1.6.1 (the version the model was saved wi
 ## Ethics
 
 All training data comes from publicly available, research-licensed datasets; no personal data was collected. The app analyses pasted text in memory and does not store it. The demonstration set uses phishing examples published by UWE Bristol, the University of Bristol and the University of Birmingham for awareness purposes, already redacted by those institutions, plus simulated school emails written for this project. Usability testing follows UWE ethical approval with informed consent and anonymised feedback.
+
+## Citing the data
+
+This project uses three public datasets, listed with their licences in `data/README.md`. If you use this pipeline, please cite them as their publishers request. The primary corpus asks for:
+
+Al-Subaiey, A., Al-Thani, M., Alam, N.A., Antora, K.F., Khandakar, A. and Zaman, S.A.U. (2024). Novel interpretable and robust web-based AI platform for phishing email detection. [online] arXiv.org. Available at: https://arxiv.org/abs/2405.11619 [Accessed 9 Sept. 2026].
