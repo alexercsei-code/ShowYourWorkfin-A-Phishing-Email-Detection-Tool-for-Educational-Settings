@@ -342,7 +342,7 @@ if check:
 with st.sidebar:
     st.markdown("**How it works**")
     st.markdown(
-        "The checker was trained on around 90,000 real phishing and legitimate emails. "
+        "The checker was trained on around 86,809 real phishing and legitimate emails. "
         "It scores the wording of the message and lists the warning signs it found, "
         "based on National Cyber Security Centre guidance."
     )
