@@ -31,6 +31,10 @@ It is decision support, not a filter. It sits alongside a school's existing emai
 - **Models.** Logistic Regression, Random Forest and linear SVM compared under 5-fold cross-validation; linear SVM with TF-IDF + structural features selected and isotonically calibrated.
 - **Evaluation.** 5-fold CV (upper bound, F1 0.99) versus leave-one-source-out (F1 0.85, AUC 0.97), an 80-email synthetic AI-written education test set (F1 0.76), and a 15-email illustrative demonstration on real university phishing and simulated school emails. Warning thresholds (30% / 70%) were chosen from cross-source predictions.
 
+## Architecture
+
+![System architecture diagram showing the model research pipeline (data acquisition, cleaning, training, evaluation) and the live application flow (school staff pasting an email through to the risk classifier and rendered result)](docs/diagram.png)
+
 ## Repository layout
 
 ```
